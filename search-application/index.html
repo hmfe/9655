@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Solita Search Engine</title>
+  <link rel="stylesheet" href="style.css?6">
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />
+</head>
+<body>
+  <section id="landing-page">
+    <div class="header">
+      Search Engine
+    </div>
+    <div class="form-layout">
+      <span class="note">
+        <p>you can start searching by typing in the box below.</p>
+      </span>
+      <form id="search-engine">
+        <input type="text" id="searchbox" class="searchbox" placeholder="Search..." required />
+      </form>
+      <button id="clear-button" class="search">Clear History</button>
+      <div class="session-history">
+        <ul id="history-list"></ul>
+      </div>
+    </div>
+  </section>
+  <footer>Copyright &copy; 2019 ahmed@divwall.com</footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+  <script src="moment.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
